@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am the creator of this website, and I am delighted to share my experiences with you.</p>
+        <img src="WhatsApp Image 2024-12-01 at 14.11.35_cff00f42.jpg"  class="aboutpic"/>
+    </section> 
+    <section id="projects">
+        <h2>Projects Saya</h2>
+        <div class="project">
+            <img src="WhatsApp Image 2024-12-01 at 14.17.52_a76a0065.jpg"Project 1 Image">
+            <h3>Project 1</h3>
+            <p>A brief description of project 1. It showcases my skills in HTML, CSS, and JavaScript.</p>
+            <a href="#" class="button">View Project</a>
+        </div>
+        <div class="project">
+            <img src="WhatsApp Image 2024-12-01 at 14.20.38_b809e384.jpg" alt="Project 2 Image">
+            <h3>Project 2</h3>
+            <p>A brief description of project 2. This project demonstrates my ability to create responsive designs.</p>
+            <a href="#" class="button">View Project</a>
+        </div>
+        <div class="project">
+            <img src="WhatsApp Image 2024-12-01 at 14.31.45_b6e34772.jpg" alt="Project 3 Image">
+            <h3>Project 3</h3>
+            <p>A brief description of project 3. This project showcases my skills in front-end frameworks.</p>
+            <a href="#" class="button">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
